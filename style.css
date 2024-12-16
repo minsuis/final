@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* 인덱스 페이지 스타일  */
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 2;
+    background: radial-gradient(
+        rgba(0, 0, 0, 0.05),
+        rgba(0, 0, 0, 0.9)
+    );
+}
+.wrap{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 3;
+}
+.box01{
+    width: 100%;
+    padding-top: 216px;
+    text-align: center;
+}
+.box02{
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    font-family: "omnigothic", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+.box03{
+    width: 100%;
+    padding-top: 70px;
+    text-align: center;
+}
+
+/* 서브페이지 스타일 */
+
+.b01{
+        width: 430px;
+        height: 877px;
+        margin: 0 auto;
+        background-image: url(img/bg01.png);
+        position: relative;
+    }
+.b02{
+    width: 430px;
+    height: 877px;
+    margin: 0 auto;
+    background-image: url(img/bg02.png);
+    position: relative;
+}
+.txt01{
+    font-family: "supersize-bk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34px;
+    text-align: center;
+    color: white;
+    transform: translateX(0%) translateY(20%);
+}
+.txt02{
+    font-family: "supersize-bk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 39px;
+    text-align: center;
+    color: orange;
+    transform: translateX(0%) translateY(200%);
+}
+.txt03{
+    font-family: "gulim", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+    color: black;
+    transform: translateX(0%) translateY(2950%);}
+.b03{    
+    width: 430px;
+    height: 877px;
+    margin: 0 auto;
+    background-image: url(img/bg03.png);
+    position: relative;
+}
+.txt04{
+    font-family: "supersize-bk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 44px;
+    text-align: center;
+    color: white;
+    transform: translateX(0%) translateY(100%)
+}
+.txt05{
+    font-family: "gulim", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    transform: translateX(5%) translateY(280%);
+}
+.txt06{    font-family: "gulim", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    transform: translateX(5%) translateY(850%);}
+.txt07{    font-family: "gulim", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    transform: translateX(5%) translateY(1430%);}
+.txt08{    font-family: "gulim", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    transform: translateX(0%) translateY(880%);
+    letter-spacing: -2px;}
+.b04{width: 430px;
+    height: 877px;
+    margin: 0 auto;
+    background-image: url(img/bg04.png);
+    position: relative;}
+.txt09{font-family: "supersize-bk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(40, 40, 255);
+    transform: translateX(0%) translateY(700%)}
+.txt10{    font-family: "gulim", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(110, 122, 255);
+    transform: translateX(0%) translateY(780%);
+    letter-spacing: -1px;}
+.txt11{    font-family: "gulim", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(110, 122, 255);
+    transform: translateX(0%) translateY(890%);}
+.b05{width: 430px;
+    height: 877px;
+    margin: 0 auto;
+    background-image: url(img/bg05.png);
+    position: relative;}
+.txt12{
+    transform: translateX(0%) translateY(100%);
+    font-family: "supersize-bk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center;
+    color: white}
+.txt13{
+    font-family: "gulim", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    transform: translateX(0%) translateY(800%);
+}
+.txt14{    font-family: "gulim", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    transform: translateX(0%) translateY(900%);}
+.b06{width: 430px;
+    height: 877px;
+    margin: 0 auto;
+    background-image: url(img/bg06.png);
+    position: relative;}
+.txt15{transform: translateX(0%) translateY(150%);
+    font-family: "supersize-bk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    text-align: center;
+    color: white}
+.txt16{    font-family: "gulim", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    transform: translateX(0%) translateY(300%);}
+.txt17{    font-family: "gulim", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    transform: translateX(0%) translateY(150%);}
+.b07{width: 430px;
+    height: 877px;
+    margin: 0 auto;
+    background-image: url(img/bg07.png);
+    position: relative;}
+.txt18{transform: translateX(0%) translateY(150%);
+    font-family: "supersize-bk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 44px;
+    text-align: center;
+    color: rgb(255, 128, 78)}
+.txt19{
+    font-family: "gulim", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 23px;
+    text-align: center;
+    color: rgb(255, 140, 90);
+    transform: translateX(0%) translateY(165%);
+}
+.txt20{
+    font-family: "gulim", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 19px;
+    text-align: center;
+    color: rgb(255, 186, 67);
+    transform: translateX(0%) translateY(165%);
+}
+.txt21{
+    font-family: "gulim", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 19px;
+    text-align: center;
+    color: rgb(255, 186, 67);
+    transform: translateX(0%) translateY(190%);
+}
+.b08{width: 430px;
+    height: 234px;
+    margin: 0 auto;
+    background-image: url(img/bg08.png);
+    position: relative;}
+.txt22{    font-family: "gulim", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    text-align: center;
+    color: black;
+    transform: translateX(0%) translateY(300%);}
